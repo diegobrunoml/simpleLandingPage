@@ -147,17 +147,13 @@ nav h1{
     flex-direction: row;
     box-sizing: border-box;
     padding-bottom: 1.2vh;
-    gap: 3vw;
+    gap: 2.1vw;
     margin-bottom: 3vh;
     overflow-x: auto;
     margin:auto;
 }
 
-.products_row::-webkit-scrollbar {
-    width: 12px; 
-    height: 2vh;
-  }
-  
+
   .products_row::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
@@ -182,11 +178,9 @@ nav h1{
     height: 13vw;
 }
 
-
 .product_image:hover{
     box-shadow: 0px 0px 40px 1px rgb(209, 209, 209);
 }
-
 
 .product h2{
     margin: 4px;
@@ -307,6 +301,12 @@ nav h1{
         width: 80%;
 
     }
+
+    .products_row::-webkit-scrollbar {
+        width: 12px; 
+        height: 0.8vh;
+      }
+      
     
 }
 
@@ -355,4 +355,8 @@ footer {
 
 .stars{
     margin-right: 7px;
+}
+
+.avaliation{
+    font-size: calc(0.7vw + 0.7vh);
 }
